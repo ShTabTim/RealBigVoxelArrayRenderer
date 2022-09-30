@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FundLibs\glad 46\src\glad.c" />
+    <ClCompile Include="FundLibs\noise\Simplex.cpp" />
+    <ClCompile Include="FundLibs\sh_win\keys.cpp" />
+    <ClCompile Include="FundLibs\sh_win\win.cpp" />
+    <ClCompile Include="FundLibs\vogl\Shader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="var_o_vogl\var.cpp">
+      <Filter>var_o_vogl</Filter>
+    </ClCompile>
+    <ClCompile Include="var_o_vogl\var_renderer.cpp">
+      <Filter>var_o_vogl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FundLibs\glad 46\include\glad\glad.h" />
+    <ClInclude Include="FundLibs\glad 46\include\KHR\khrplatform.h" />
+    <ClInclude Include="FundLibs\noise\Simplex.h" />
+    <ClInclude Include="FundLibs\sh_win\keys.h" />
+    <ClInclude Include="FundLibs\sh_win\win.h" />
+    <ClInclude Include="FundLibs\vogl\Shader.h" />
+    <ClInclude Include="var_o_vogl\var.h">
+      <Filter>var_o_vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="var_o_vogl\var_map.h">
+      <Filter>var_o_vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="var_o_vogl\var_renderer.h">
+      <Filter>var_o_vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="var_o_vogl\ogl.hpp">
+      <Filter>var_o_vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="var_o_vogl\mat3x3.h">
+      <Filter>var_o_vogl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\main.frag.glsl" />
+    <None Include="Shaders\main.vert.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="var_o_vogl">
+      <UniqueIdentifier>{495b22ae-efac-478c-905c-54ff914a76f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
